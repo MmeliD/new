@@ -1,0 +1,32 @@
+
+# first two numbers
+num1 = int(input()) 
+num2 = int(input())
+
+print("Fibonacci sequence:")
+# run loop 10 times
+for i in range(10):
+    # print next number of a series
+    if not(num1> 987):
+        print(num1, end="  ")
+        # add last two numbers to get next number
+        res = num1 + num2
+    
+        # update values
+        num1 = num2
+        num2 = res
+
+
+
+#mine
+# first two numbers
+num1 = int(input()) 
+num2 = int(input())
+
+print("Fibonacci sequence:")
+
+for i in range(10):
+    print(i)
+    num3=num1+num2
+    num1=num3
+    num2=num2+num3#add code here

@@ -1,0 +1,3 @@
+#What are functions for? When would you want to use a function?
+#Functions are for compartmentalizing code and making code easy to reuse.For instance, let's say you want to write a program that determines if each of the following numbers are prime numbers: 24, 83, 239. Well, you could write code that determines if 24 is prime, then code that determines if 83 is prime, then code that determines if 239 is prime. But re-writing code three times is inefficient and will make your code difficult to read and maintain. Instead, you can write one singular is_prime(num) function, and pass in 24, 83, and 239 respectively as parameters. 
+# The def keyword declares a function definition in Python.
